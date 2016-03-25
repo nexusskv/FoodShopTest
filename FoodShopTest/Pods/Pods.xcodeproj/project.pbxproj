@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		210E05E1D4A3E1ECC3EE2187E30B0A9C /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5C524E6AF94BB76E29C4400D9C450A /* SVRadialGradientLayer.h */; };
+		3A6FA88D8CA0802C7CE84A942173D670 /* WYPopoverController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2251A4553D751B28E9334BC28B51CCFA /* WYPopoverController-dummy.m */; };
+		4E2B9950F68D07899BB22E89AC8AE15D /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D12870A02E6764BB4AC6E45C3EB008D /* SVRadialGradientLayer.m */; };
+		53189C3BA6065DCFF68A0A416D66D443 /* WYStoryboardPopoverSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0FDB70297EF0AD807B5EECAB84492B /* WYStoryboardPopoverSegue.h */; };
+		56C1FE87BC60EDEB418BB7BF293DBC1E /* WYPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACF110793B305ECF56DDA0FD4B84FC9 /* WYPopoverController.m */; };
+		5B0171A18AAF772495940464D5265291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6A367055EBA7F995739C0678C84CEB /* Foundation.framework */; };
+		71B3C4CC06A1453F7B375A8336217974 /* WYStoryboardPopoverSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2541B053F53E56BA382E13062EDD4D /* WYStoryboardPopoverSegue.m */; };
+		71E0C7A58480135673960069F8097BFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6A367055EBA7F995739C0678C84CEB /* Foundation.framework */; };
+		726E5FBB9BE84275E1DA36A15C7FDC99 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C9BF26E415CE7CD0AD428E70675B94 /* Pods-dummy.m */; };
+		7D8C54FD00DB18BD042895F7056F03C3 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFDAB16438AD0D393F71D77ECEEEA2E /* SVIndefiniteAnimatedView.m */; };
+		7FC1AEEA9C34B18750E5972CA667D94C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF27BC9096BB50C2BFBBEB12DA49C27C /* QuartzCore.framework */; };
+		8898BA0C9CCBADCFFC165F5B2B950C86 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5B6154715EBB25F6AC04C71229FCEE /* SVProgressHUD.h */; };
+		A757B7F58F9606624C4397756EB3F9C0 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = F2520E27AE78B20122C595322289B7F9 /* SVIndefiniteAnimatedView.h */; };
+		D5EC9E42519D85CE31A8DE56A0E6E640 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541D19FEF674461D99FBCDE4A8678069 /* UIKit.framework */; };
+		D66E2424BCFC5767ED76E1663E965A14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6A367055EBA7F995739C0678C84CEB /* Foundation.framework */; };
+		D824B85986890048B57EB279615EFA55 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE26854299A3D3305235E11603C1152 /* SVProgressHUD.m */; };
+		E0A42FF28D2B0D2B159CCEF2EC6432B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF27BC9096BB50C2BFBBEB12DA49C27C /* QuartzCore.framework */; };
+		F08418882B4F3E9A7A64F12260355B05 /* WYPopoverController.h in Headers */ = {isa = PBXBuildFile; fileRef = 293DF20AE98A8A29B60A9DDBE424C5C6 /* WYPopoverController.h */; };
+		F24A3A2C37A2675495241F21887B46A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264AF34375E6908BCC1A24AE38DB5F37 /* CoreGraphics.framework */; };
+		FE8E5E4EA24D3875968205A9713B95D5 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E690E8FECF633E1D8C7D1E76F69F37B /* SVProgressHUD-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		130FBB988A4D1CC9628E9FD6FA1EB21B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 254D13B4E3A35D9347BB36B086C0B431;
+			remoteInfo = WYPopoverController;
+		};
+		960592F415315B6B0F42935A3CE9800B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1ACDCA220025CBFDF59160654044979;
+			remoteInfo = SVProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F972D351936D981400480C7423B42A7 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		1FE26854299A3D3305235E11603C1152 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		2251A4553D751B28E9334BC28B51CCFA /* WYPopoverController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYPopoverController-dummy.m"; sourceTree = "<group>"; };
+		264AF34375E6908BCC1A24AE38DB5F37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		293DF20AE98A8A29B60A9DDBE424C5C6 /* WYPopoverController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYPopoverController.h; path = WYPopoverController/WYPopoverController.h; sourceTree = "<group>"; };
+		2A932E6BDB197E5BE14C9A3CFF92D431 /* libWYPopoverController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWYPopoverController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B05B46F814848DCC9F3059BF171A403 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		2D26E1574C36FE929E381A001BD658FF /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E690E8FECF633E1D8C7D1E76F69F37B /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		39C94FD6B85254C21F0F3896E0DFC639 /* SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		3BF1DAF0970C580F29C8536B6EC672F9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		42847573F429ADDEAE7F4102A805CAA6 /* WYPopoverController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYPopoverController.xcconfig; sourceTree = "<group>"; };
+		46E002BB6FC51B4891B91D041D64F121 /* WYPopoverController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "WYPopoverController-Private.xcconfig"; sourceTree = "<group>"; };
+		4B0FDB70297EF0AD807B5EECAB84492B /* WYStoryboardPopoverSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYStoryboardPopoverSegue.h; path = WYPopoverController/WYStoryboardPopoverSegue.h; sourceTree = "<group>"; };
+		541D19FEF674461D99FBCDE4A8678069 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5D12870A02E6764BB4AC6E45C3EB008D /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		6846EF55F4E0D7A6F9FB6774599B39AC /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		851EF977CAD5834BB2FCB851AF6800A6 /* WYPopoverController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYPopoverController-prefix.pch"; sourceTree = "<group>"; };
+		8F5C524E6AF94BB76E29C4400D9C450A /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		9ACF110793B305ECF56DDA0FD4B84FC9 /* WYPopoverController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYPopoverController.m; path = WYPopoverController/WYPopoverController.m; sourceTree = "<group>"; };
+		AE5B6154715EBB25F6AC04C71229FCEE /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		AF27BC9096BB50C2BFBBEB12DA49C27C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD6A367055EBA7F995739C0678C84CEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C158676C7CA9B70B0E92925FC8D40426 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		CA4BCF1DE2BF8901CC8689456258E6C1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DCFDAB16438AD0D393F71D77ECEEEA2E /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		EA2541B053F53E56BA382E13062EDD4D /* WYStoryboardPopoverSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYStoryboardPopoverSegue.m; path = WYPopoverController/WYStoryboardPopoverSegue.m; sourceTree = "<group>"; };
+		F2520E27AE78B20122C595322289B7F9 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		F6C9BF26E415CE7CD0AD428E70675B94 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08A35520257C63C6CB38013AB42F44CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24A3A2C37A2675495241F21887B46A3 /* CoreGraphics.framework in Frameworks */,
+				5B0171A18AAF772495940464D5265291 /* Foundation.framework in Frameworks */,
+				E0A42FF28D2B0D2B159CCEF2EC6432B7 /* QuartzCore.framework in Frameworks */,
+				D5EC9E42519D85CE31A8DE56A0E6E640 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA141F4B62DFF8263F41CE05D0F6345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E0C7A58480135673960069F8097BFB /* Foundation.framework in Frameworks */,
+				7FC1AEEA9C34B18750E5972CA667D94C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7202B1047B28D3F4E360B1E3F1BF582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66E2424BCFC5767ED76E1663E965A14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CB6AAB047A1193DA81CD6676BE1EC87 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C604A74BE89F58F540BC118A2C082F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42847573F429ADDEAE7F4102A805CAA6 /* WYPopoverController.xcconfig */,
+				46E002BB6FC51B4891B91D041D64F121 /* WYPopoverController-Private.xcconfig */,
+				2251A4553D751B28E9334BC28B51CCFA /* WYPopoverController-dummy.m */,
+				851EF977CAD5834BB2FCB851AF6800A6 /* WYPopoverController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WYPopoverController";
+			sourceTree = "<group>";
+		};
+		6CB6AAB047A1193DA81CD6676BE1EC87 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				264AF34375E6908BCC1A24AE38DB5F37 /* CoreGraphics.framework */,
+				BD6A367055EBA7F995739C0678C84CEB /* Foundation.framework */,
+				AF27BC9096BB50C2BFBBEB12DA49C27C /* QuartzCore.framework */,
+				541D19FEF674461D99FBCDE4A8678069 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				A6E6EE2032B0CD5CD6D38BCEBD4C9F02 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E848DA18C0C6BA1398DE5D8720EBA39 /* WYPopoverController */ = {
+			isa = PBXGroup;
+			children = (
+				293DF20AE98A8A29B60A9DDBE424C5C6 /* WYPopoverController.h */,
+				9ACF110793B305ECF56DDA0FD4B84FC9 /* WYPopoverController.m */,
+				4B0FDB70297EF0AD807B5EECAB84492B /* WYStoryboardPopoverSegue.h */,
+				EA2541B053F53E56BA382E13062EDD4D /* WYStoryboardPopoverSegue.m */,
+				1C604A74BE89F58F540BC118A2C082F4 /* Support Files */,
+			);
+			path = WYPopoverController;
+			sourceTree = "<group>";
+		};
+		80ED1B0CC8DC18CD7ED9BE7AFFD65821 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C158676C7CA9B70B0E92925FC8D40426 /* SVProgressHUD.xcconfig */,
+				39C94FD6B85254C21F0F3896E0DFC639 /* SVProgressHUD-Private.xcconfig */,
+				2E690E8FECF633E1D8C7D1E76F69F37B /* SVProgressHUD-dummy.m */,
+				1F972D351936D981400480C7423B42A7 /* SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				F6C9BF26E415CE7CD0AD428E70675B94 /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				2B05B46F814848DCC9F3059BF171A403 /* Pods.debug.xcconfig */,
+				CA4BCF1DE2BF8901CC8689456258E6C1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		A6E6EE2032B0CD5CD6D38BCEBD4C9F02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE4FE540C4CD9D1DC482A4ABF0009E38 /* SVProgressHUD */,
+				7E848DA18C0C6BA1398DE5D8720EBA39 /* WYPopoverController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE4FE540C4CD9D1DC482A4ABF0009E38 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F2520E27AE78B20122C595322289B7F9 /* SVIndefiniteAnimatedView.h */,
+				DCFDAB16438AD0D393F71D77ECEEEA2E /* SVIndefiniteAnimatedView.m */,
+				AE5B6154715EBB25F6AC04C71229FCEE /* SVProgressHUD.h */,
+				1FE26854299A3D3305235E11603C1152 /* SVProgressHUD.m */,
+				8F5C524E6AF94BB76E29C4400D9C450A /* SVRadialGradientLayer.h */,
+				5D12870A02E6764BB4AC6E45C3EB008D /* SVRadialGradientLayer.m */,
+				BFBE94C285FAD9DD666FEACECF1576CF /* Resources */,
+				80ED1B0CC8DC18CD7ED9BE7AFFD65821 /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		BFBE94C285FAD9DD666FEACECF1576CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6846EF55F4E0D7A6F9FB6774599B39AC /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BF1DAF0970C580F29C8536B6EC672F9 /* libPods.a */,
+				2D26E1574C36FE929E381A001BD658FF /* libSVProgressHUD.a */,
+				2A932E6BDB197E5BE14C9A3CFF92D431 /* libWYPopoverController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		85F11436321E30D3530311BF89B6EAE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08418882B4F3E9A7A64F12260355B05 /* WYPopoverController.h in Headers */,
+				53189C3BA6065DCFF68A0A416D66D443 /* WYStoryboardPopoverSegue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFF669474D7361545876216B83572A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A757B7F58F9606624C4397756EB3F9C0 /* SVIndefiniteAnimatedView.h in Headers */,
+				8898BA0C9CCBADCFFC165F5B2B950C86 /* SVProgressHUD.h in Headers */,
+				210E05E1D4A3E1ECC3EE2187E30B0A9C /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		254D13B4E3A35D9347BB36B086C0B431 /* WYPopoverController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F5BDAE33BB32BFB74927739BC2FEAB2 /* Build configuration list for PBXNativeTarget "WYPopoverController" */;
+			buildPhases = (
+				B04C8BCC38DAD5AD90379A2691E3DA74 /* Sources */,
+				08A35520257C63C6CB38013AB42F44CE /* Frameworks */,
+				85F11436321E30D3530311BF89B6EAE4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYPopoverController;
+			productName = WYPopoverController;
+			productReference = 2A932E6BDB197E5BE14C9A3CFF92D431 /* libWYPopoverController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		52E1D5BFFD92F06B784C82367BEF7C24 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE9BA994B0CBE0215103D1A8BB46E5EC /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				1CC7880050D7221FB6C67307B8305F7C /* Sources */,
+				C7202B1047B28D3F4E360B1E3F1BF582 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A297C8662D196068BFB04328E6477316 /* PBXTargetDependency */,
+				9194C26C119CB09F9D1F152D021F6575 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 3BF1DAF0970C580F29C8536B6EC672F9 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F1ACDCA220025CBFDF59160654044979 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B7F26E554F0A7741CE0A4627E2265D /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				F5098417EDD65049D546F4E0DF316D0D /* Sources */,
+				2CA141F4B62DFF8263F41CE05D0F6345 /* Frameworks */,
+				ADFF669474D7361545876216B83572A0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 2D26E1574C36FE929E381A001BD658FF /* libSVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52E1D5BFFD92F06B784C82367BEF7C24 /* Pods */,
+				F1ACDCA220025CBFDF59160654044979 /* SVProgressHUD */,
+				254D13B4E3A35D9347BB36B086C0B431 /* WYPopoverController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CC7880050D7221FB6C67307B8305F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726E5FBB9BE84275E1DA36A15C7FDC99 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04C8BCC38DAD5AD90379A2691E3DA74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6FA88D8CA0802C7CE84A942173D670 /* WYPopoverController-dummy.m in Sources */,
+				56C1FE87BC60EDEB418BB7BF293DBC1E /* WYPopoverController.m in Sources */,
+				71B3C4CC06A1453F7B375A8336217974 /* WYStoryboardPopoverSegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5098417EDD65049D546F4E0DF316D0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8C54FD00DB18BD042895F7056F03C3 /* SVIndefiniteAnimatedView.m in Sources */,
+				FE8E5E4EA24D3875968205A9713B95D5 /* SVProgressHUD-dummy.m in Sources */,
+				D824B85986890048B57EB279615EFA55 /* SVProgressHUD.m in Sources */,
+				4E2B9950F68D07899BB22E89AC8AE15D /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9194C26C119CB09F9D1F152D021F6575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WYPopoverController;
+			target = 254D13B4E3A35D9347BB36B086C0B431 /* WYPopoverController */;
+			targetProxy = 130FBB988A4D1CC9628E9FD6FA1EB21B /* PBXContainerItemProxy */;
+		};
+		A297C8662D196068BFB04328E6477316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = F1ACDCA220025CBFDF59160654044979 /* SVProgressHUD */;
+			targetProxy = 960592F415315B6B0F42935A3CE9800B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		51EE31B9EC75E2CA23CCF4FADC46B4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E002BB6FC51B4891B91D041D64F121 /* WYPopoverController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WYPopoverController/WYPopoverController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		987F6B741FA54EF94B406C35903EC7E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B05B46F814848DCC9F3059BF171A403 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9F9F7728B6ED2F50D7A34281986F06A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C94FD6B85254C21F0F3896E0DFC639 /* SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AF2FDCEF7CA4909301C509E3CA11C4ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4BCF1DE2BF8901CC8689456258E6C1 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B81AA6BD4C55088493C32995A6F062B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C94FD6B85254C21F0F3896E0DFC639 /* SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C20A299965E2D7EEC667A77B5B0B617E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E002BB6FC51B4891B91D041D64F121 /* WYPopoverController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WYPopoverController/WYPopoverController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01B7F26E554F0A7741CE0A4627E2265D /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9F7728B6ED2F50D7A34281986F06A4 /* Debug */,
+				B81AA6BD4C55088493C32995A6F062B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F5BDAE33BB32BFB74927739BC2FEAB2 /* Build configuration list for PBXNativeTarget "WYPopoverController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20A299965E2D7EEC667A77B5B0B617E /* Debug */,
+				51EE31B9EC75E2CA23CCF4FADC46B4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE9BA994B0CBE0215103D1A8BB46E5EC /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				987F6B741FA54EF94B406C35903EC7E7 /* Debug */,
+				AF2FDCEF7CA4909301C509E3CA11C4ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

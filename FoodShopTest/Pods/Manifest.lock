@@ -1,0 +1,13 @@
+PODS:
+  - SVProgressHUD (2.0)
+  - WYPopoverController (0.3.9)
+
+DEPENDENCIES:
+  - SVProgressHUD
+  - WYPopoverController
+
+SPEC CHECKSUMS:
+  SVProgressHUD: e9e7c893686a20da55a28015ed384d9425e15479
+  WYPopoverController: a9db25ac2841a686acdc0f3a99bdb21545db32f4
+
+COCOAPODS: 0.38.2

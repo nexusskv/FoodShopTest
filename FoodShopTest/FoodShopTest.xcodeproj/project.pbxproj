@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1106FE691CA32839007EB43B /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1106FE681CA32839007EB43B /* AddItemViewController.m */; };
+		1106FE6C1CA33226007EB43B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1106FE6A1CA33225007EB43B /* LaunchScreen.storyboard */; };
+		1106FE701CA35704007EB43B /* CurrencyLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1106FE6F1CA35704007EB43B /* CurrencyLoader.m */; };
+		113DB18B1CA4544200CF2A3D /* Foods+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 113DB1881CA4544200CF2A3D /* Foods+CoreDataProperties.m */; };
+		113DB18C1CA4544200CF2A3D /* Foods.m in Sources */ = {isa = PBXBuildFile; fileRef = 113DB18A1CA4544200CF2A3D /* Foods.m */; };
+		113DB1911CA4545C00CF2A3D /* Currency+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 113DB18E1CA4545C00CF2A3D /* Currency+CoreDataProperties.m */; };
+		113DB1921CA4545C00CF2A3D /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 113DB1901CA4545C00CF2A3D /* Currency.m */; };
+		113DB1971CA4547500CF2A3D /* Basket+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 113DB1941CA4547500CF2A3D /* Basket+CoreDataProperties.m */; };
+		113DB1981CA4547500CF2A3D /* Basket.m in Sources */ = {isa = PBXBuildFile; fileRef = 113DB1961CA4547500CF2A3D /* Basket.m */; };
+		113DB19E1CA498AB00CF2A3D /* PopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 113DB19D1CA498AB00CF2A3D /* PopoverViewController.m */; };
+		113DB1A21CA4F97800CF2A3D /* CustomBasketCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 113DB1A11CA4F97800CF2A3D /* CustomBasketCell.m */; };
+		11D637A81CA2F65A0042F5C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D637A71CA2F65A0042F5C1 /* main.m */; };
+		11D637B61CA2F65B0042F5C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D637B51CA2F65B0042F5C1 /* Assets.xcassets */; };
+		11D637C41CA2F65B0042F5C1 /* FoodShopTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D637C31CA2F65B0042F5C1 /* FoodShopTestTests.m */; };
+		11D637CF1CA2F65B0042F5C1 /* FoodShopTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D637CE1CA2F65B0042F5C1 /* FoodShopTestUITests.m */; };
+		11D637E61CA2F7C90042F5C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D637DF1CA2F7C90042F5C1 /* AppDelegate.m */; };
+		11D637E71CA2F7C90042F5C1 /* FoodShopTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11D637E21CA2F7C90042F5C1 /* FoodShopTest.xcdatamodeld */; };
+		11D637EC1CA2F8560042F5C1 /* DataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D637EB1CA2F8560042F5C1 /* DataFetcher.m */; };
+		11D637F11CA2F9E30042F5C1 /* BasketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D637F01CA2F9E30042F5C1 /* BasketViewController.m */; };
+		11D637F81CA304310042F5C1 /* UIBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D637F71CA304310042F5C1 /* UIBuilder.m */; };
+		692745469253524F28CA6B5C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 004D42A2684547223C07BB44 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11D637C01CA2F65B0042F5C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11D6379B1CA2F65A0042F5C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11D637A21CA2F65A0042F5C1;
+			remoteInfo = FoodShopTest;
+		};
+		11D637CB1CA2F65B0042F5C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11D6379B1CA2F65A0042F5C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11D637A21CA2F65A0042F5C1;
+			remoteInfo = FoodShopTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004D42A2684547223C07BB44 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1106FE671CA32839007EB43B /* AddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
+		1106FE681CA32839007EB43B /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
+		1106FE6B1CA33225007EB43B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = FoodShopTest/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		1106FE6E1CA35704007EB43B /* CurrencyLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrencyLoader.h; path = CurrencyLoader/CurrencyLoader.h; sourceTree = "<group>"; };
+		1106FE6F1CA35704007EB43B /* CurrencyLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrencyLoader.m; path = CurrencyLoader/CurrencyLoader.m; sourceTree = "<group>"; };
+		113DB1871CA4544200CF2A3D /* Foods+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Foods+CoreDataProperties.h"; path = "CoreData/CoreDataManagedObjects/FoodsObject/Foods+CoreDataProperties.h"; sourceTree = "<group>"; };
+		113DB1881CA4544200CF2A3D /* Foods+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Foods+CoreDataProperties.m"; path = "CoreData/CoreDataManagedObjects/FoodsObject/Foods+CoreDataProperties.m"; sourceTree = "<group>"; };
+		113DB1891CA4544200CF2A3D /* Foods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Foods.h; path = CoreData/CoreDataManagedObjects/FoodsObject/Foods.h; sourceTree = "<group>"; };
+		113DB18A1CA4544200CF2A3D /* Foods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Foods.m; path = CoreData/CoreDataManagedObjects/FoodsObject/Foods.m; sourceTree = "<group>"; };
+		113DB18D1CA4545C00CF2A3D /* Currency+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Currency+CoreDataProperties.h"; path = "CoreData/CoreDataManagedObjects/CurrencyObject/Currency+CoreDataProperties.h"; sourceTree = "<group>"; };
+		113DB18E1CA4545C00CF2A3D /* Currency+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Currency+CoreDataProperties.m"; path = "CoreData/CoreDataManagedObjects/CurrencyObject/Currency+CoreDataProperties.m"; sourceTree = "<group>"; };
+		113DB18F1CA4545C00CF2A3D /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Currency.h; path = CoreData/CoreDataManagedObjects/CurrencyObject/Currency.h; sourceTree = "<group>"; };
+		113DB1901CA4545C00CF2A3D /* Currency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Currency.m; path = CoreData/CoreDataManagedObjects/CurrencyObject/Currency.m; sourceTree = "<group>"; };
+		113DB1931CA4547500CF2A3D /* Basket+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Basket+CoreDataProperties.h"; path = "CoreData/CoreDataManagedObjects/BasketObject/Basket+CoreDataProperties.h"; sourceTree = "<group>"; };
+		113DB1941CA4547500CF2A3D /* Basket+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Basket+CoreDataProperties.m"; path = "CoreData/CoreDataManagedObjects/BasketObject/Basket+CoreDataProperties.m"; sourceTree = "<group>"; };
+		113DB1951CA4547500CF2A3D /* Basket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Basket.h; path = CoreData/CoreDataManagedObjects/BasketObject/Basket.h; sourceTree = "<group>"; };
+		113DB1961CA4547500CF2A3D /* Basket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Basket.m; path = CoreData/CoreDataManagedObjects/BasketObject/Basket.m; sourceTree = "<group>"; };
+		113DB19A1CA460B900CF2A3D /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Constants/Constants.h; sourceTree = "<group>"; };
+		113DB19C1CA498AB00CF2A3D /* PopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopoverViewController.h; path = PopoverViewController/PopoverViewController.h; sourceTree = "<group>"; };
+		113DB19D1CA498AB00CF2A3D /* PopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PopoverViewController.m; path = PopoverViewController/PopoverViewController.m; sourceTree = "<group>"; };
+		113DB1A01CA4F97800CF2A3D /* CustomBasketCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomBasketCell.h; path = CustomBasketCell/CustomBasketCell.h; sourceTree = "<group>"; };
+		113DB1A11CA4F97800CF2A3D /* CustomBasketCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomBasketCell.m; path = CustomBasketCell/CustomBasketCell.m; sourceTree = "<group>"; };
+		11D637A31CA2F65A0042F5C1 /* FoodShopTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodShopTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D637A71CA2F65A0042F5C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11D637B51CA2F65B0042F5C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		11D637BA1CA2F65B0042F5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		11D637BF1CA2F65B0042F5C1 /* FoodShopTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodShopTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D637C31CA2F65B0042F5C1 /* FoodShopTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodShopTestTests.m; sourceTree = "<group>"; };
+		11D637C51CA2F65B0042F5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D637CA1CA2F65B0042F5C1 /* FoodShopTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodShopTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D637CE1CA2F65B0042F5C1 /* FoodShopTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodShopTestUITests.m; sourceTree = "<group>"; };
+		11D637D01CA2F65B0042F5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D637DE1CA2F7C90042F5C1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11D637DF1CA2F7C90042F5C1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11D637E31CA2F7C90042F5C1 /* FoodShopTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodShopTest.xcdatamodel; sourceTree = "<group>"; };
+		11D637EA1CA2F8560042F5C1 /* DataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataFetcher.h; path = CoreData/DataFetcher/DataFetcher.h; sourceTree = "<group>"; };
+		11D637EB1CA2F8560042F5C1 /* DataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataFetcher.m; path = CoreData/DataFetcher/DataFetcher.m; sourceTree = "<group>"; };
+		11D637EF1CA2F9E30042F5C1 /* BasketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasketViewController.h; path = BasketViewController/BasketViewController.h; sourceTree = "<group>"; };
+		11D637F01CA2F9E30042F5C1 /* BasketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasketViewController.m; path = BasketViewController/BasketViewController.m; sourceTree = "<group>"; };
+		11D637F61CA304310042F5C1 /* UIBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIBuilder.h; path = UIBuilder/UIBuilder.h; sourceTree = "<group>"; };
+		11D637F71CA304310042F5C1 /* UIBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIBuilder.m; path = UIBuilder/UIBuilder.m; sourceTree = "<group>"; };
+		B94CB57EBB600421945A98B7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BE4C6A00BAE3A5585569895E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11D637A01CA2F65A0042F5C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692745469253524F28CA6B5C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D637BC1CA2F65B0042F5C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D637C71CA2F65B0042F5C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1106FE661CA32839007EB43B /* AddItemViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1106FE671CA32839007EB43B /* AddItemViewController.h */,
+				1106FE681CA32839007EB43B /* AddItemViewController.m */,
+			);
+			path = AddItemViewController;
+			sourceTree = "<group>";
+		};
+		1106FE6D1CA356C8007EB43B /* CurrencyLoader */ = {
+			isa = PBXGroup;
+			children = (
+				1106FE6E1CA35704007EB43B /* CurrencyLoader.h */,
+				1106FE6F1CA35704007EB43B /* CurrencyLoader.m */,
+			);
+			name = CurrencyLoader;
+			sourceTree = "<group>";
+		};
+		113DB17D1CA4539100CF2A3D /* CoreDataManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				113DB1801CA453F200CF2A3D /* FoodsObject */,
+				113DB17F1CA453B900CF2A3D /* CurrencyObject */,
+				113DB17E1CA453B100CF2A3D /* BasketObject */,
+			);
+			name = CoreDataManagedObjects;
+			sourceTree = "<group>";
+		};
+		113DB17E1CA453B100CF2A3D /* BasketObject */ = {
+			isa = PBXGroup;
+			children = (
+				113DB1931CA4547500CF2A3D /* Basket+CoreDataProperties.h */,
+				113DB1941CA4547500CF2A3D /* Basket+CoreDataProperties.m */,
+				113DB1951CA4547500CF2A3D /* Basket.h */,
+				113DB1961CA4547500CF2A3D /* Basket.m */,
+			);
+			name = BasketObject;
+			sourceTree = "<group>";
+		};
+		113DB17F1CA453B900CF2A3D /* CurrencyObject */ = {
+			isa = PBXGroup;
+			children = (
+				113DB18D1CA4545C00CF2A3D /* Currency+CoreDataProperties.h */,
+				113DB18E1CA4545C00CF2A3D /* Currency+CoreDataProperties.m */,
+				113DB18F1CA4545C00CF2A3D /* Currency.h */,
+				113DB1901CA4545C00CF2A3D /* Currency.m */,
+			);
+			name = CurrencyObject;
+			sourceTree = "<group>";
+		};
+		113DB1801CA453F200CF2A3D /* FoodsObject */ = {
+			isa = PBXGroup;
+			children = (
+				113DB1871CA4544200CF2A3D /* Foods+CoreDataProperties.h */,
+				113DB1881CA4544200CF2A3D /* Foods+CoreDataProperties.m */,
+				113DB1891CA4544200CF2A3D /* Foods.h */,
+				113DB18A1CA4544200CF2A3D /* Foods.m */,
+			);
+			name = FoodsObject;
+			sourceTree = "<group>";
+		};
+		113DB1991CA4609300CF2A3D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				113DB19A1CA460B900CF2A3D /* Constants.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		113DB19B1CA4986F00CF2A3D /* PopoverViewController */ = {
+			isa = PBXGroup;
+			children = (
+				113DB19C1CA498AB00CF2A3D /* PopoverViewController.h */,
+				113DB19D1CA498AB00CF2A3D /* PopoverViewController.m */,
+			);
+			name = PopoverViewController;
+			sourceTree = "<group>";
+		};
+		113DB19F1CA4F91800CF2A3D /* CustomBasketCell */ = {
+			isa = PBXGroup;
+			children = (
+				113DB1A01CA4F97800CF2A3D /* CustomBasketCell.h */,
+				113DB1A11CA4F97800CF2A3D /* CustomBasketCell.m */,
+			);
+			name = CustomBasketCell;
+			sourceTree = "<group>";
+		};
+		11D6379A1CA2F65A0042F5C1 = {
+			isa = PBXGroup;
+			children = (
+				11D637A51CA2F65A0042F5C1 /* FoodShopTest */,
+				11D637E01CA2F7C90042F5C1 /* Resources */,
+				11D637C21CA2F65B0042F5C1 /* FoodShopTestTests */,
+				11D637CD1CA2F65B0042F5C1 /* FoodShopTestUITests */,
+				11D637A41CA2F65A0042F5C1 /* Products */,
+				9D9E40F5C27EE3AEA8F239AE /* Pods */,
+				91F7B94D506A7F0DC9E3B660 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11D637A41CA2F65A0042F5C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11D637A31CA2F65A0042F5C1 /* FoodShopTest.app */,
+				11D637BF1CA2F65B0042F5C1 /* FoodShopTestTests.xctest */,
+				11D637CA1CA2F65B0042F5C1 /* FoodShopTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11D637A51CA2F65A0042F5C1 /* FoodShopTest */ = {
+			isa = PBXGroup;
+			children = (
+				11D637E41CA2F7C90042F5C1 /* WebLayer */,
+				11D637E51CA2F7C90042F5C1 /* DataLayer */,
+				11D637DD1CA2F7C90042F5C1 /* UserLayer */,
+			);
+			path = FoodShopTest;
+			sourceTree = "<group>";
+		};
+		11D637A61CA2F65A0042F5C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11D637A71CA2F65A0042F5C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		11D637C21CA2F65B0042F5C1 /* FoodShopTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				11D637C31CA2F65B0042F5C1 /* FoodShopTestTests.m */,
+				11D637C51CA2F65B0042F5C1 /* Info.plist */,
+			);
+			path = FoodShopTestTests;
+			sourceTree = "<group>";
+		};
+		11D637CD1CA2F65B0042F5C1 /* FoodShopTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11D637CE1CA2F65B0042F5C1 /* FoodShopTestUITests.m */,
+				11D637D01CA2F65B0042F5C1 /* Info.plist */,
+			);
+			path = FoodShopTestUITests;
+			sourceTree = "<group>";
+		};
+		11D637DD1CA2F7C90042F5C1 /* UserLayer */ = {
+			isa = PBXGroup;
+			children = (
+				11D637DE1CA2F7C90042F5C1 /* AppDelegate.h */,
+				11D637DF1CA2F7C90042F5C1 /* AppDelegate.m */,
+				11D637EE1CA2F9C60042F5C1 /* BasketViewController */,
+			);
+			path = UserLayer;
+			sourceTree = "<group>";
+		};
+		11D637E01CA2F7C90042F5C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11D637E11CA2F7C90042F5C1 /* CoreData */,
+				11D637A61CA2F65A0042F5C1 /* Supporting Files */,
+				11D637B51CA2F65B0042F5C1 /* Assets.xcassets */,
+				11D637BA1CA2F65B0042F5C1 /* Info.plist */,
+				1106FE6A1CA33225007EB43B /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			path = FoodShopTest/Resources;
+			sourceTree = "<group>";
+		};
+		11D637E11CA2F7C90042F5C1 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				11D637E21CA2F7C90042F5C1 /* FoodShopTest.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		11D637E41CA2F7C90042F5C1 /* WebLayer */ = {
+			isa = PBXGroup;
+			children = (
+				1106FE6D1CA356C8007EB43B /* CurrencyLoader */,
+			);
+			path = WebLayer;
+			sourceTree = "<group>";
+		};
+		11D637E51CA2F7C90042F5C1 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				113DB19F1CA4F91800CF2A3D /* CustomBasketCell */,
+				113DB19B1CA4986F00CF2A3D /* PopoverViewController */,
+				113DB1991CA4609300CF2A3D /* Constants */,
+				11D637F51CA304130042F5C1 /* UIBuilder */,
+				11D637E81CA2F8250042F5C1 /* CoreData */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		11D637E81CA2F8250042F5C1 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				113DB17D1CA4539100CF2A3D /* CoreDataManagedObjects */,
+				11D637E91CA2F82E0042F5C1 /* DataFetcher */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		11D637E91CA2F82E0042F5C1 /* DataFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				11D637EA1CA2F8560042F5C1 /* DataFetcher.h */,
+				11D637EB1CA2F8560042F5C1 /* DataFetcher.m */,
+			);
+			name = DataFetcher;
+			sourceTree = "<group>";
+		};
+		11D637EE1CA2F9C60042F5C1 /* BasketViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11D637EF1CA2F9E30042F5C1 /* BasketViewController.h */,
+				11D637F01CA2F9E30042F5C1 /* BasketViewController.m */,
+				1106FE661CA32839007EB43B /* AddItemViewController */,
+			);
+			name = BasketViewController;
+			sourceTree = "<group>";
+		};
+		11D637F51CA304130042F5C1 /* UIBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				11D637F61CA304310042F5C1 /* UIBuilder.h */,
+				11D637F71CA304310042F5C1 /* UIBuilder.m */,
+			);
+			name = UIBuilder;
+			sourceTree = "<group>";
+		};
+		91F7B94D506A7F0DC9E3B660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				004D42A2684547223C07BB44 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D9E40F5C27EE3AEA8F239AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE4C6A00BAE3A5585569895E /* Pods.debug.xcconfig */,
+				B94CB57EBB600421945A98B7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11D637A21CA2F65A0042F5C1 /* FoodShopTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D637D31CA2F65B0042F5C1 /* Build configuration list for PBXNativeTarget "FoodShopTest" */;
+			buildPhases = (
+				C93155DD46E4D5A9BE3CD1ED /* Check Pods Manifest.lock */,
+				11D6379F1CA2F65A0042F5C1 /* Sources */,
+				11D637A01CA2F65A0042F5C1 /* Frameworks */,
+				11D637A11CA2F65A0042F5C1 /* Resources */,
+				A939BA342B15EA4DD9144148 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodShopTest;
+			productName = FoodShopTest;
+			productReference = 11D637A31CA2F65A0042F5C1 /* FoodShopTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11D637BE1CA2F65B0042F5C1 /* FoodShopTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D637D61CA2F65B0042F5C1 /* Build configuration list for PBXNativeTarget "FoodShopTestTests" */;
+			buildPhases = (
+				11D637BB1CA2F65B0042F5C1 /* Sources */,
+				11D637BC1CA2F65B0042F5C1 /* Frameworks */,
+				11D637BD1CA2F65B0042F5C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11D637C11CA2F65B0042F5C1 /* PBXTargetDependency */,
+			);
+			name = FoodShopTestTests;
+			productName = FoodShopTestTests;
+			productReference = 11D637BF1CA2F65B0042F5C1 /* FoodShopTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11D637C91CA2F65B0042F5C1 /* FoodShopTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D637D91CA2F65B0042F5C1 /* Build configuration list for PBXNativeTarget "FoodShopTestUITests" */;
+			buildPhases = (
+				11D637C61CA2F65B0042F5C1 /* Sources */,
+				11D637C71CA2F65B0042F5C1 /* Frameworks */,
+				11D637C81CA2F65B0042F5C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11D637CC1CA2F65B0042F5C1 /* PBXTargetDependency */,
+			);
+			name = FoodShopTestUITests;
+			productName = FoodShopTestUITests;
+			productReference = 11D637CA1CA2F65B0042F5C1 /* FoodShopTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11D6379B1CA2F65A0042F5C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Rost Gress";
+				TargetAttributes = {
+					11D637A21CA2F65A0042F5C1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					11D637BE1CA2F65B0042F5C1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 11D637A21CA2F65A0042F5C1;
+					};
+					11D637C91CA2F65B0042F5C1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 11D637A21CA2F65A0042F5C1;
+					};
+				};
+			};
+			buildConfigurationList = 11D6379E1CA2F65A0042F5C1 /* Build configuration list for PBXProject "FoodShopTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11D6379A1CA2F65A0042F5C1;
+			productRefGroup = 11D637A41CA2F65A0042F5C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11D637A21CA2F65A0042F5C1 /* FoodShopTest */,
+				11D637BE1CA2F65B0042F5C1 /* FoodShopTestTests */,
+				11D637C91CA2F65B0042F5C1 /* FoodShopTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11D637A11CA2F65A0042F5C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D637B61CA2F65B0042F5C1 /* Assets.xcassets in Resources */,
+				1106FE6C1CA33226007EB43B /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D637BD1CA2F65B0042F5C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D637C81CA2F65B0042F5C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A939BA342B15EA4DD9144148 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C93155DD46E4D5A9BE3CD1ED /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11D6379F1CA2F65A0042F5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D637E71CA2F7C90042F5C1 /* FoodShopTest.xcdatamodeld in Sources */,
+				113DB18C1CA4544200CF2A3D /* Foods.m in Sources */,
+				113DB1A21CA4F97800CF2A3D /* CustomBasketCell.m in Sources */,
+				11D637F11CA2F9E30042F5C1 /* BasketViewController.m in Sources */,
+				113DB19E1CA498AB00CF2A3D /* PopoverViewController.m in Sources */,
+				1106FE691CA32839007EB43B /* AddItemViewController.m in Sources */,
+				11D637F81CA304310042F5C1 /* UIBuilder.m in Sources */,
+				113DB1981CA4547500CF2A3D /* Basket.m in Sources */,
+				11D637E61CA2F7C90042F5C1 /* AppDelegate.m in Sources */,
+				1106FE701CA35704007EB43B /* CurrencyLoader.m in Sources */,
+				113DB18B1CA4544200CF2A3D /* Foods+CoreDataProperties.m in Sources */,
+				113DB1921CA4545C00CF2A3D /* Currency.m in Sources */,
+				11D637A81CA2F65A0042F5C1 /* main.m in Sources */,
+				113DB1911CA4545C00CF2A3D /* Currency+CoreDataProperties.m in Sources */,
+				113DB1971CA4547500CF2A3D /* Basket+CoreDataProperties.m in Sources */,
+				11D637EC1CA2F8560042F5C1 /* DataFetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D637BB1CA2F65B0042F5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D637C41CA2F65B0042F5C1 /* FoodShopTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D637C61CA2F65B0042F5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D637CF1CA2F65B0042F5C1 /* FoodShopTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11D637C11CA2F65B0042F5C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11D637A21CA2F65A0042F5C1 /* FoodShopTest */;
+			targetProxy = 11D637C01CA2F65B0042F5C1 /* PBXContainerItemProxy */;
+		};
+		11D637CC1CA2F65B0042F5C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11D637A21CA2F65A0042F5C1 /* FoodShopTest */;
+			targetProxy = 11D637CB1CA2F65B0042F5C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1106FE6A1CA33225007EB43B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1106FE6B1CA33225007EB43B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11D637D11CA2F65B0042F5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11D637D21CA2F65B0042F5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11D637D41CA2F65B0042F5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE4C6A00BAE3A5585569895E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoodShopTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rost.FoodShopTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11D637D51CA2F65B0042F5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B94CB57EBB600421945A98B7 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoodShopTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rost.FoodShopTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		11D637D71CA2F65B0042F5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FoodShopTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rost.FoodShopTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodShopTest.app/FoodShopTest";
+			};
+			name = Debug;
+		};
+		11D637D81CA2F65B0042F5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FoodShopTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rost.FoodShopTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodShopTest.app/FoodShopTest";
+			};
+			name = Release;
+		};
+		11D637DA1CA2F65B0042F5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FoodShopTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rost.FoodShopTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FoodShopTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		11D637DB1CA2F65B0042F5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FoodShopTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rost.FoodShopTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FoodShopTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11D6379E1CA2F65A0042F5C1 /* Build configuration list for PBXProject "FoodShopTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D637D11CA2F65B0042F5C1 /* Debug */,
+				11D637D21CA2F65B0042F5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D637D31CA2F65B0042F5C1 /* Build configuration list for PBXNativeTarget "FoodShopTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D637D41CA2F65B0042F5C1 /* Debug */,
+				11D637D51CA2F65B0042F5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D637D61CA2F65B0042F5C1 /* Build configuration list for PBXNativeTarget "FoodShopTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D637D71CA2F65B0042F5C1 /* Debug */,
+				11D637D81CA2F65B0042F5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D637D91CA2F65B0042F5C1 /* Build configuration list for PBXNativeTarget "FoodShopTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D637DA1CA2F65B0042F5C1 /* Debug */,
+				11D637DB1CA2F65B0042F5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		11D637E21CA2F7C90042F5C1 /* FoodShopTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				11D637E31CA2F7C90042F5C1 /* FoodShopTest.xcdatamodel */,
+			);
+			currentVersion = 11D637E31CA2F7C90042F5C1 /* FoodShopTest.xcdatamodel */;
+			path = FoodShopTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 11D6379B1CA2F65A0042F5C1 /* Project object */;
+}

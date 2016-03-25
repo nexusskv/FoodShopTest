@@ -1,0 +1,3 @@
+pod 'SVProgressHUD'
+pod 'WYPopoverController'
+link_with 'FoodShopTest'
